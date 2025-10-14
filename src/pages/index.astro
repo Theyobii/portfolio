@@ -1,6 +1,6 @@
 ---
-import "../styles/main.css"
-
+import "../styles/main.css";
+import ContactForm from '../components/ContactForm.jsx';
 ---
 
 <html lang="en">
@@ -14,8 +14,53 @@ import "../styles/main.css"
 
 
 	<body>
-        <h1 class="bg-lime-600">Astro</h1>
-    </body>
+        <main class="min-h-screen flex flex-col items-center p-4 sm:p-8 bg-gray-50">
+        
+        <section id="perfil" class="w-full max-w-4xl bg-white shadow-xl rounded-lg p-8 md:p-10 mb-12">
+            
+            <div class="flex flex-col md:flex-row items-center md:space-x-8">
+                
+                <div class="mb-6 md:mb-0 flex-shrink-0">
+                    <img 
+                     src="../public/perro.jpg" 
+                        alt="Jonny - Desarrollador Web" 
+                        class="w-40 h-40 rounded-full object-cover border-4 border-indigo-500 shadow-lg"
+                    />
+                </div>
+                
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl sm:text-4xl font-extrabold text-gray-900 mb-2">
+                        Hola, soy Jonny 
+                    </h1>
+                    <p class="text-xl text-indigo-600 font-semibold mb-4">
+                        Desarrollador Web | Especialista en React
+                    </p>
+                    <p class="text-gray-700 leading-relaxed max-w-prose">
+                    Soy un apasionado desarrollador con experiencia en React, Astro y estilos con Tailwind CSS. Mi enfoque es construir experiencias web rápidas y modernas.
+                    </p>
+                </div>
 
+            </div>
+
+        </section>
+
+        <hr class="w-1/2 border-gray-300 mb-12" />
+
+        <section id="contacto" class="w-full max-w-2xl">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">
+                ¡Contactame!
+            </h2>
+
+            <div class="bg-white p-6 sm:p-8 rounded-lg shadow-2xl">
+                <ContactForm client:load />
+            </div>
+                   </section>
+
+    </main>
+
+    <footer class="w-full mt-12 py-4 bg-gray-800 text-center text-gray-400">
+        <p>&copy; {new Date().getFullYear()} Theyobii. Construido con Astro, React y Tailwind.</p>
+    </footer>
+    </body>
 
 </html>
