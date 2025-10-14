@@ -8,11 +8,14 @@
 > **¡Hola! Soy Theyobii.** Este es el repositorio de mi portafolio web personal, construido para mostrar mis habilidades y proyectos de desarrollo frontend. El sitio está diseñado para ser ultrarrápido y SEO-friendly, aprovechando la arquitectura de "islas" de Astro.
 
 ### 🖼️ Previsualización del Sitio
+<img width="1090" height="292" alt="image" src="https://github.com/user-attachments/assets/dc5c7ddc-4ec8-45eb-b7eb-083750e98229" />
+
 
 ### 🌐 Demo en Vivo
 
 Puedes ver la versión desplegada en:
 
+https://portfolio-lilac-sigma-57.vercel.app/
 
 ---
 
@@ -56,25 +59,5 @@ Ejecuta el servidor de desarrollo en modo local. Esto abrirá el sitio en `http:
 ```bash
 npm run dev
 ```
-### estructura del proyecto
-
-├── public/
-│   ├── tu-foto.jpg           # Archivos estáticos (imágenes, favicons)
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   ├── ContactForm.jsx   # Componente React (ej. formulario con estado)
-│   │   ├── Header.astro      # Componente Astro (elementos estáticos y de layout)
-│   │   └── Card.astro        # Componentes reusables de la interfaz
-│   ├── layouts/
-│   │   └── Layout.astro      # Estructura principal, meta tags, importación de Tailwind
-│   ├── pages/
-│   │   └── index.astro       # Página de inicio (donde se combinan Astro y React)
-│   └── styles/
-│       └── global.css        # Archivo principal para @tailwind directives
-├── .gitignore
-├── astro.config.mjs          # Archivo de configuración principal (incluye integración de React)
-├── package.json
-└── tailwind.config.cjs       # Configuración de Tailwind
 
 
