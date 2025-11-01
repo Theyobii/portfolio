@@ -15,7 +15,7 @@
 
 Puedes ver la versión desplegada en:
 
-https://portfolio-lilac-sigma-57.vercel.app/
+https://mini-portfolio-sigma-33.vercel.app/
 
 ---
 
