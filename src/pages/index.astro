@@ -1,5 +1,7 @@
 ---
 import "../styles/main.css";
+import VideoBackground from '../components/VideoBackground.jsx';
+import videoSource from './public/background2.mp4';
 import MainLayout from "src/layouts/MainLayout.astro";
 import ContactForm from '../components/ContactForm.jsx';
 import { AvatarPhoto } from '../components/AvatarPhoto.jsx';
@@ -16,34 +18,37 @@ import { AvatarPhoto } from '../components/AvatarPhoto.jsx';
 
 
     <body>
-        <main class="min-h-screen flex flex-col items-center p-4 sm:p-8">
-        
+        <main class="min-h-screen flex flex-col items-center">
+
+            <VideoBackground src={videoSource} client:load>
+                
                 <header>
-                    <nav class="w-full max-w-4xl mb-8 flex justify-between items-center py-4">
-                    <div class="space-x-4">
-                        <a href="/" class="absolute top-6 right-14 rounded-md p-[0.2rem] duration-100 text-gray-700 font-semibold mb-4 hover:text-indigo-600">Inicio</a>
-                        <a href="/contact" class="absolute top-6 right-28 text-gray-700 rounded-md p-[0.2rem] duration-100 font-semibold mb-4 hover:text-indigo-600">Contacto</a>
-                    </div>
+                    <nav class="fixed top-0 left-0 w-full z-50">
+                        <div class="w-full max-w-4xl mx-auto flex justify-center items-center gap-6 p-4">
+                            <a href="/" class="text-white text-lg sm:text-xl px-4 py-2 rounded-md hover:text-indigo-600">Inicio</a>
+                            <a href="/contact" class="text-white text-lg sm:text-xl px-4 py-2 rounded-md hover:text-indigo-600">Contacto</a>
+                        </div>
+                   </nav>
                 </header>
         
-            <section id="perfil" class="">
+            <section>
             
                 <div class="flex flex-col md:flex-row items-center md:space-x-8">
 
                     <div class="mb-6 md:mb-0 flex-shrink-0">
                     <AvatarPhoto 
-                    className="w-60 h-60 rounded-full object-cover border-2 hadow-lg mb-6" 
+                    className="w-60 h-60 rounded-full object-cover border-0 hadow-lg mb-6" 
                     client:load/>
                     </div>
                 
                     <div class="text-center md:text-left">
-                        <h1 class="text-4xl sm:text-4xl font-extrabold text-gray-900 mb-2">
+                        <h1 class="text-4xl sm:text-4xl font-extrabold text-white mb-2">
                          Hola, soy Jonn
                         </h1>
-                        <p class="text-xl text-indigo-600 font-semibold mb-4">
+                        <p class="text-xl text-orange-500 font-semibold mb-4">
                             Desarrollador Web 
                         </p>
-                        <p class="text-gray-700 leading-relaxed max-w-prose">
+                        <p class="text-white leading-relaxed max-w-prose">
                             Soy un apasionado desarrollador, cada dia aprendiendo mas sobre desarrollo frontend y backend. Mi enfoque es construir experiencias web rápidas y modernas.
                         </p>
                     </div>
@@ -51,13 +56,11 @@ import { AvatarPhoto } from '../components/AvatarPhoto.jsx';
                 </div>
 
             </section>
+        </VideoBackground>
     
         </main>
     
-        <footer class="w-full mt-12 py-4 bg-gray-800 text-center text-gray-400"
-            >© {new Date().getFullYear()} - Jonn
-        </footer>
-    
+
     </body>
 
 </html>
