@@ -11,7 +11,6 @@ const VideoBackground = ({ src, children }) => {
         playsInline 
       >
         <source src={src} type="video/mp4" />
-        {<source src={src} type="../assets/background2.mp4" />}
         Tu navegador no soporta el tag de video.
       </video>
       <div className="relative z-10 ">
