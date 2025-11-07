@@ -6,7 +6,7 @@ export default function ContactForm() {
       <h2 className="text-black text-lg font-semibold mb-3">Contáctame</h2>
 
       <form
-        action="https://formsubmit.co/sisaxsisa20@gmail.com"
+        action="https://formsubmit.co/sisaxsisa20@gmail.com  "
         method="POST"
         className="grid gap-4"
       >
