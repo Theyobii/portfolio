@@ -11,21 +11,21 @@
       "path": "/",
       "title": "Inicio - Jonnctrl",
       "summary": "Presentación breve: 'Hola, soy Jonn' — desarrollador web con enfoque en performance y experiencias modernas.",
-      "keywords": ["portafolio","desarrollador web","Astro","React","Tailwind"],
+      "keywords": ["portafolio", "desarrollador web", "Astro", "React", "Tailwind"],
       "lastmod": "2025-12-03"
     },
     {
       "path": "/about",
       "title": "Acerca de - Jonnctrl",
       "summary": "Biografía corta: estudiante de Ingeniería en Sistemas, intereses en música, fotografía y desarrollo en Linux.",
-      "keywords": ["about","biografía","desarrollador","Ingeniería"],
+      "keywords": ["about", "biografía", "desarrollador", "Ingeniería"],
       "lastmod": "2025-12-03"
     },
     {
       "path": "/contact",
       "title": "Contacto - Jonnctrl",
       "summary": "Página de contacto con formulario. Actualmente la implementación puede usar un `form action` o JS para enviar datos.",
-      "keywords": ["contacto","formulario","email"],
+      "keywords": ["contacto", "formulario", "email"],
       "lastmod": "2025-12-03"
     }
   ],

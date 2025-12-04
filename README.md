@@ -8,8 +8,8 @@
 > **¡Hola! Soy Theyobii.** Este es el repositorio de mi portafolio web personal, construido para mostrar mis habilidades y proyectos de desarrollo frontend. El sitio está diseñado para ser ultrarrápido y SEO-friendly, aprovechando la arquitectura de "islas" de Astro.
 
 ### 🖼️ Previsualización del Sitio
-<img width="1090" height="292" alt="image" src="https://github.com/user-attachments/assets/dc5c7ddc-4ec8-45eb-b7eb-083750e98229" />
 
+<img width="1090" height="292" alt="image" src="https://github.com/user-attachments/assets/dc5c7ddc-4ec8-45eb-b7eb-083750e98229" />
 
 ### 🌐 Demo en Vivo
 
@@ -23,9 +23,10 @@ https://mini-portfolio-sigma-33.vercel.app/
 
 Este proyecto combina lo mejor del desarrollo web moderno para un rendimiento excepcional:
 
-* **Astro:** Como *framework* principal, para el *Server-Side Rendering* (SSR) y la generación de sitios estáticos, asegurando cero JavaScript por defecto y una velocidad de carga máxima.
-* **React:** Se utiliza en componentes específicos ("Astro Islands") donde se requiere interactividad, estado o lógica compleja (ej. el formulario de contacto).
-* **Tailwind CSS v3:** Para un diseño rápido, *utility-first* y completamente *responsive*.
+- **Astro:** Como _framework_ principal, para el _Server-Side Rendering_ (SSR) y la generación de sitios estáticos, asegurando cero JavaScript por defecto y una velocidad de carga máxima.
+- **React:** Se utiliza en componentes específicos ("Astro Islands") donde se requiere interactividad, estado o lógica compleja (ej. el formulario de contacto).
+- **Tailwind CSS v3:** Para un diseño rápido, _utility-first_ y completamente _responsive_.
+
 ---
 
 ## ⚙️ Configuración y Desarrollo Local
@@ -36,12 +37,13 @@ Sigue estos pasos para obtener una copia del proyecto y ejecutarlo en tu máquin
 
 Asegúrate de tener instalado:
 
-* [Node.js](https://nodejs.org/en/) (versión 18+)
-* npm (viene con Node.js) o yarn / pnpm.
+- [Node.js](https://nodejs.org/en/) (versión 18+)
+- npm (viene con Node.js) o yarn / pnpm.
 
 ### Instalación
 
 1.  **Clonar el Repositorio:**
+
     ```bash
     git clone [https://github.com/Theyobii/portfolio.git](https://github.com/Theyobii/portfolio.git)
     cd portfolio
@@ -59,5 +61,3 @@ Ejecuta el servidor de desarrollo en modo local. Esto abrirá el sitio en `http:
 ```bash
 npm run dev
 ```
-
-
