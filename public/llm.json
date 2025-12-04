@@ -1,0 +1,36 @@
+{
+  "site": {
+    "name": "Jonnctrl — Portafolio",
+    "url": "https://mini-portfolio-sigma-33.vercel.app/",
+    "description": "Portafolio personal (Astro + React + Tailwind) de Jonny — desarrollador front-end/full-stack en formación.",
+    "language": "es",
+    "last_updated": "2025-12-03"
+  },
+  "pages": [
+    {
+      "path": "/",
+      "title": "Inicio - Jonnctrl",
+      "summary": "Presentación breve: 'Hola, soy Jonn' — desarrollador web con enfoque en performance y experiencias modernas.",
+      "keywords": ["portafolio","desarrollador web","Astro","React","Tailwind"],
+      "lastmod": "2025-12-03"
+    },
+    {
+      "path": "/about",
+      "title": "Acerca de - Jonnctrl",
+      "summary": "Biografía corta: estudiante de Ingeniería en Sistemas, intereses en música, fotografía y desarrollo en Linux.",
+      "keywords": ["about","biografía","desarrollador","Ingeniería"],
+      "lastmod": "2025-12-03"
+    },
+    {
+      "path": "/contact",
+      "title": "Contacto - Jonnctrl",
+      "summary": "Página de contacto con formulario. Actualmente la implementación puede usar un `form action` o JS para enviar datos.",
+      "keywords": ["contacto","formulario","email"],
+      "lastmod": "2025-12-03"
+    }
+  ],
+  "notes": {
+    "formsubmit_support": "Si el formulario usa FormSubmit, la CSP permite form-action a https://formsubmit.co. Si envías con fetch/AJAX, añade formsubmit a connect-src.",
+    "how_to_use": "Este archivo facilita a crawlers y agentes LLM comprender estructura/propósito de cada ruta. Mantener actualizado en cada despliegue mejora resultados de indexación semántica."
+  }
+}
