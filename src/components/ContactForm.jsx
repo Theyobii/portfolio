@@ -1,26 +1,21 @@
-import React from 'react';
+import React from 'react'
 
 export default function ContactForm() {
   return (
-    <div className="max-w-xl mx-auto p-6 shadow-xl">
-      <h2 className="text-black text-lg font-semibold mb-3">Contáctame</h2>
+    <div className="mx-auto max-w-xl p-6 shadow-xl">
+      <h2 className="mb-3 text-lg font-semibold text-black">Contáctame</h2>
 
-      <form
-        action="https://formsubmit.co/sisaxsisa20@gmail.com  "
-        method="POST"
-        className="grid gap-4"
-      >
-        <label htmlFor="nombre"
-        >Nombre:</label>
-        <input 
-        type="text" 
-        id="nombre" 
-        name="nombre" 
-        required 
-        class="w-full bg-transparent border border-zinc-700 rounded-md px-3 py-2 text-black placeholder:text-zinc-500 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 outline-none transition"
+      <form action="https://formsubmit.co/sisaxsisa20@gmail.com  " method="POST" className="grid gap-4">
+        <label htmlFor="nombre">Nombre:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          required
+          className="w-full rounded-md border border-zinc-700 bg-transparent px-3 py-2 text-black outline-none transition placeholder:text-zinc-500 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
         />
-        
-        <label htmlFor="email" className="text-sm ">
+
+        <label htmlFor="email" className="text-sm">
           Tu Email
         </label>
         <input
@@ -28,7 +23,7 @@ export default function ContactForm() {
           id="email"
           name="email"
           required
-          className="w-full bg-transparent border border-zinc-700 rounded-md px-3 py-2 text-black placeholder:text-zinc-500 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 outline-none transition"
+          className="w-full rounded-md border border-zinc-700 bg-transparent px-3 py-2 text-black outline-none transition placeholder:text-zinc-500 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
         />
 
         <label htmlFor="mensaje" className="text-sm text-black">
@@ -39,16 +34,16 @@ export default function ContactForm() {
           name="mensaje"
           required
           rows={6}
-          className="w-full bg-transparent border border-zinc-700 rounded-md px-3 py-2 text-black placeholder:text-zinc-500 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 outline-none transition resize-vertical"
+          className="w-full rounded-md border border-zinc-700 bg-transparent px-3 py-2 text-black outline-none transition placeholder:text-zinc-500 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
         />
 
         <button
           type="submit"
-          className="self-end bg-gradient-to-r from-cyan-400 to-sky-600 text-slate-900 font-semibold px-4 py-2 rounded-lg hover:shadow-lg transform hover:-translate-y-1 transition"
+          className="transform self-end rounded-lg bg-gradient-to-r from-cyan-400 to-sky-600 px-4 py-2 font-semibold text-slate-900 transition hover:-translate-y-1 hover:shadow-lg"
         >
           Enviar
         </button>
       </form>
     </div>
-  );
+  )
 }

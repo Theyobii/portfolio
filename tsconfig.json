@@ -1,30 +1,20 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": [
-    ".astro/types.d.ts",
-    "**/*"
-  ],
-  "exclude": [
-    "dist"
-  ],
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"],
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "react",
     "resolveJsonModule": true,
-		"esModuleInterop": true,
-		"moduleResolution": "node",
-		"strict": true,
-		"baseUrl": ".",
-		"paths": {
-			"@styles/*": [
-				"src/styles/*"
-			],
-			"@assets/*": [
-				"src/assets/*"
-			],
-			"@components/*": [
-				"src/components/*"
-			]
-		}
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@styles/*": ["src/styles/*"],
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"]
+    }
   }
 }
