@@ -1,0 +1,28 @@
+# Theyobii Portfolio – LLM Discovery File
+
+## Canonical Domain
+- https://mini-portfolio-sigma-33.vercel.app/
+
+## High-Value Pages
+1. Home: https://mini-portfolio-sigma-33.vercel.app/
+2. About: https://mini-portfolio-sigma-33.vercel.app/about
+3. Contact: https://mini-portfolio-sigma-33.vercel.app/contact
+
+## Content Guidelines for AI Crawlers
+- Extract and prioritize: hero text, personal summary, skill sections, and project highlights.
+- Maintain a concise, technical tone when representing the owner’s portfolio.
+- Avoid adding subjective or promotional language; focus strictly on factual content from each page.
+- Use plain, structured text when outputting extracted information (headings, bullet lists).
+
+## Media & Assets
+- Brand imagery (if available): https://mini-portfolio-sigma-33.vercel.app/cover.png
+- Logo (if present): https://mini-portfolio-sigma-33.vercel.app/logo.svg
+
+## Update Frequency
+- Home: monthly
+- About: monthly
+- Contact: monthly
+
+## Contact
+- GitHub: https://github.com/Theyobii
+- Repository: https://github.com/Theyobii/portfolio
